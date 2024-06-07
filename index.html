@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <title>Podóloga Nete Silva</title>
+</head>
+<body>
+	<main>
+		<header>
+			<nav>
+				<img src="./assets/logotipo-podologa-nete-silva.svg" width="250" alt="logotipo podologa Nete Silva">
+				<span class="linha"></span>
+				<ul>
+					<li><a href="#consultorio">Consultório</a></li>
+					<li><a href="#servico">Serviços</a></li>
+					<li><a href="#contatos">Contato</a></li>
+				</ul>
+			</nav>
+			<section id="home">
+				<div class="textos-home">
+					<h1>Seja Bem-vindo!<br> Aqui <span>cuidamos dos seus pés.</span></h1>
+					<button class="btn">Agende um horário</button>
+				</div>
+				<div class="img-home">
+					<video controls width="400">
+						<source src="assets/VID-20240415-WA0021.mp4">
+					</video>
+				</div>
+			</section>
+		</header>
+		<section id="consultorio">
+			<div class="detalhes">
+				<div class="imgs-espaco">
+					<img class="img-espaco" src="assets/laser-podologia-1.jpg" width="400" alt="Aplicação da laserterapia nos pés">
+				</div>
+				<div class="espaco-textos">
+					<h2 class="titulo">Tecnologia e natureza potencializando seu tratamento</h2>
+					<p class="infos">Oferecemos equipamentos de ponta, produtos certificados e atendimento de uma
+						profissional ultra qualificada para dissipar seu problema com os pés e ajudar você na busca por
+						conforto na sua caminhada.</p>
+					<hr>
+				</div>
+			</div>
+			<div class="detalhes">
+				<div class="imgs-espaco">
+					<img class="img-espaco" src="assets/massagem-nos-pes.jpeg" width="400" alt="massagem nos pes">
+				</div>
+				<div class="espaco-textos">
+					<h2 class="titulo">Elevando seu bem-estar a um novo patamar</h2>
+					<p class="infos">No nosso consultório, cada visita é uma jornada revigorante para mais serenidade e
+						disposição! Independente da sua rotina, vamos ajudar você a encontrar mais saúde para seus pés.</p>
+					<hr>
+				</div>
+			</div>
+		</section>
+		<section id="servico">
+
+            <div class="cards">
+                <div class="card">
+                    <!--img src="/assets/icon-massagem.png" alt="Icone de massagem"-->
+                    <h3 class="card-titulo">Onicomicoses</h3>
+                    <img src="./assets/Soft Star.png" alt="imagem sobre o tratamento">
+                    <p class="card-texto">Texto sobre o tratamento.</p>
+                </div>
+                <div class="card">
+                    <!-- <img src="/assets/icon-tratamentos.png" alt="Icone de tratamento com figura de uma banheira"> -->
+                    <h3 class="card-titulo">Lase Terapia</h3>
+                    <img src="./assets/Soft Star.png" alt="imagem sobre o tratamento">
+                    <p class="card-texto">Texto sobre o tratamento.</p>
+                </div>
+                <div class="card">
+                    <!-- <img src="/assets/icon-dias-especiais.png" alt="Icone de Dias especiais com figura de produtos"> -->
+                    <h3 class="card-titulo">Massagens</h3>
+                    <img src="./assets/Soft Star.png" alt="imagem sobre o tratamento">
+                    <p class="card-texto">Texto sobre o tratamento.</p>
+                </div>
+            </div>
+
+        </section>
+		<section id="desconto">
+			
+            <!-- <img src="/assets/mandala-esquerda.png" alt="Mandala lado esquerdo"> -->
+            <div class="desconto-form">
+				<hr class="borda">
+                <h4>Inscreva-se para ganhar descontos!</h4>
+                <p>Cadastre seu email para receber descontos e novidades sobre o espaço e nossos serviços.</p>
+                <div class="input-btn">
+                    <input type="email">
+                    <button type="submit">Inscrever</button>
+                </div>
+            </div>
+			
+            <!-- <img src="/assets/mandala-direita.png" alt="Mandala lado direito"> -->
+        </section>
+        <section id="contatos">
+            <div class="contatos-imgs">
+                <img src="/assets/contato-img-1.png" alt="Homem deitado em banheira">
+                <img src="/assets/contato-img-2.png" alt="Mulher olhando para o horizonte dentro de uma banheira">
+                <img src="/assets/contato-img-3.png"
+                    alt="Visão superior de um livro nas mãos de uma pessoa dentro de uma banheira">
+            </div>
+            <div class="contatos-form">
+                <h4 class="titulo">Entre em contato</h4>
+                <p class="infos">Reserve seu horário, tire dúvidas ou proponha sugestões, nosso canal é aberto para
+                    você!</p>
+                <form class="inputs">
+                    <div class="form-group">
+                        <label for="nomeContato">Nome</label>
+                        <input type="text" id="nomeContato" placeholder="Digite nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailContato">Email</label>
+                        <input type="email" id="emailContato" placeholder="Digite seu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefoneContato">Telefone</label>
+                        <input type="text" id="telefoneContato" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagemContato">Mensagem</label>
+                        <textarea type="text" id="mensagemContato" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                    <button class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <small>Desenvolvido por Alex Sandro.</small>
+        </footer>
+
+
+	</main>
+</body>
+</html>
